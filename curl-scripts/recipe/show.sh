@@ -1,5 +1,5 @@
 API="http://localhost:4741"
-URL_PATH="/recipeslist"
+URL_PATH="/recipes"
 
 curl "${API}${URL_PATH}/${ID}" \
   --include \

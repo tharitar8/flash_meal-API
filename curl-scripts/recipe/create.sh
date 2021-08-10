@@ -1,6 +1,6 @@
 # sh curl-scripts/index.sh
 API="http://localhost:4741"
-URL_PATH="/recipeslist"
+URL_PATH="/recipes"
 
 curl "${API}${URL_PATH}" \
   --include \
@@ -8,7 +8,7 @@ curl "${API}${URL_PATH}" \
   --header "Content-Type: application/json" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
-    "recipelist": {
+    "recipe": {
       "title": "'"${TITLE}"'",
         "ingredients": "'"${INGREDIENTS}"'",
           "steps": "'"${STEPS}"'",

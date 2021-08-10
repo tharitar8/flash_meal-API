@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const recipesListSchema = new mongoose.Schema({
+const recipesSchema = new mongoose.Schema({
   title: {
     type: String,
     required: true
@@ -27,4 +27,4 @@ const recipesListSchema = new mongoose.Schema({
   timestamps: true
 }
 )
-module.exports = mongoose.model('RecipeList', recipesListSchema)
+module.exports = mongoose.model('Recipe', recipesSchema)
