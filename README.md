@@ -13,18 +13,12 @@ Routes will need to make the proper request to API
 
 <!-- user_routes
      recipes_routes -->
-
 ```
 -Time length: number
 -name of the dish: 'string'
 -recipes: 'string'
 -steps how to: 'string' 
 ```
-
-
-ERD
-<a href="https://imgur.com/MI1zTNH"><img src="https://i.imgur.com/MI1zTNH.jpg" title="source: imgur.com" /></a>
-<a href="https://imgur.com/Jp9NmXn"><img src="https://i.imgur.com/Jp9NmXn.jpg" title="source: imgur.com" /></a>
 
 
 Timeline
